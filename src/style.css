@@ -88,3 +88,17 @@ main {
   border-radius: 6px;
   color: white;
 }
+.weather-weekly-forecast {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.weather-forecast-day {
+  font-size: 16px;
+  color: #000;
+}
+.weather-forecast-temps {
+  font-size: 14px;
+}
+.weather-temp-min {
+  opacity: 0.5;
+}
