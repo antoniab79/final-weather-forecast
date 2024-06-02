@@ -89,16 +89,25 @@ main {
   color: white;
 }
 .weather-weekly-forecast {
+  display: flex;
+  justify-content: space-around;
   margin-top: 20px;
   margin-left: 10px;
+  text-align: center;
 }
-.weather-forecast-day {
-  font-size: 16px;
+.weather-forecast-date {
+  font-size: 17px;
   color: #000;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 .weather-forecast-temps {
-  font-size: 14px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
 }
-.weather-temp-min {
-  opacity: 0.5;
+.weather-temp {
+  padding: 0 10px;
 }
